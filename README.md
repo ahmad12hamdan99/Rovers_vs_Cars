@@ -1,5 +1,5 @@
 # Rovers_vs_Cars
-In this project we tackle the segmentation task using two of the most famouse models Yolov8 and Mask RCNN. This repo could work as simple guide with code for anyone in the process of learning how to use these models with a custome datasets.
+In this project we tackle the segmentation task using two of the most famouse models Yolov8 and Mask RCNN. This repo could serve as simple guide with code for anyone in the process of learning how to use these models with a custome datasets.
 
 ---
 
@@ -28,6 +28,9 @@ Roboflow was used to data annotation is a very useful tool, and it can export th
 2.  [Mask RCnn](detectron2.ipynb)
 
 ## Evaluation 
-
+| Model       | mAP         |  Speed         |
+| :---        |    :----:   |           ---: |
+| Yolov8      |  84.31      | 34.1  ms       | 
+| Mask RCNN   | 76.07       |120 ms          |
 
 
